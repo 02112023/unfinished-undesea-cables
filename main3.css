@@ -1,0 +1,132 @@
+body,html{
+    background:black;
+    width: 1920px;
+    height: 800x;
+    overflow: hidden;
+    left:0;
+    top: 0;
+}
+
+.line{
+  z-index:0;
+  margin-top: 15%;
+  position: fixed;
+}
+
+.css-typing p {
+    border-right: 3px solid #FFEC00;
+    font-family: "Freight";
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 45em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 45em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+.cable1{
+    margin-top: 8%;
+    margin-left: 45%;
+    position: fixed;
+    transform: scale(1.2);
+
+}
+
+.cable2{
+  margin-top: 1%;
+  margin-left: 41%;
+  position: fixed;
+  transform: scale(0.75);
+  opacity: 0;
+  
+} 
+
+.cable2:hover{
+  opacity: 1;
+  margin-left: 5%;
+  transform: scale(1);
+}
+
+
+
+
+.pause{
+    position: fixed;
+    margin-top: 34%;
+    margin-left: 45%;
+}

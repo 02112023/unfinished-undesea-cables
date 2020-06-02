@@ -1,0 +1,32 @@
+body,html{
+    background:black;
+    width: 1920px;
+    height: 800x;
+    overflow: hidden;
+    left:0;
+    top: 0;
+}
+
+.pause{
+    position: fixed;
+    margin-top: 41%;
+    margin-left: 45%;
+}
+
+.questions{
+    color: white;
+    font-family: 'Freight';
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    top: 250px;
+    left: 150px;
+    position: absolute;
+    animation: text 2.5s linear;
+}
+
+   @keyframes text{
+       from{top: 100%; transform: scale(0.8)}
+       to {top: 35%; transform: scale(1); 
+       }
+    }       

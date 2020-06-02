@@ -1,0 +1,48 @@
+body,html{
+    background:black;
+    width: 1920px;
+    height: 800x;
+    overflow: hidden;
+    left:0;
+    top: 0;
+}
+
+.pause{
+    position: fixed;
+    margin-top: 1%;;
+    margin-left: 45%;
+}
+
+button{
+    display: block;
+    background: none;
+    color: white;
+    padding: 20px;
+    margin: 50px 550px ;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Freight';
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+button::before,
+button::after {
+  background: #FFEC00;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: black;
+  border-color: #FFEC00;
+  background: #FFEC00;
+}
+
+
+
+  
+  
